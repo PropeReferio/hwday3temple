@@ -1,0 +1,60 @@
+#top-button {
+    width: 103px;
+    height: 31px;
+    background-color: lightgray;
+    text-align: center;
+    transform: translate(55em, 0.8em);
+}
+#top-button p{
+    transform: translate(0, 0.9em);
+    font-size: 0.7em;
+    color:darkgray;
+}
+h2 {
+    
+}
+.form-group label {
+    text-align: left;
+    font-weight: bold;
+}
+
+label + a {
+    float: right;
+}
+.signinbox {
+   border: 1px solid darkgray;
+   padding: 2em;
+   border-radius: 0.25em;
+}
+
+.continue-button{
+    width:35.1em;
+    color: black;
+    background-color: gold;
+    border-color: lightslategray;
+}
+#accountbutton{
+    background-color: lightgray;
+    color:black;
+    border: 1px solid lightslategray;
+}
+.form-group{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.lastlinks {
+    list-style-type: none;
+    display: inline-block;
+    margin: auto;
+    transform: translate(45em, -2em);
+}
+
+.lastlinks li {
+    float:left;
+    padding: 10px;
+    text-align:center;
+}
+p {
+    text-align: center;
+    transform: translate(0, -1em)
+}

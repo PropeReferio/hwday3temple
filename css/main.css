@@ -1,0 +1,24 @@
+.navbar-dark {
+    background-color: #F57C00 !important;
+}
+
+
+.banner-section {
+    background-image: url(../img/jason-thompson-dS3UnDX6InQ-unsplash.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    background-position: 0;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+.custom-margin {
+    margin-left: 2em;
+    margin-top: 1em;
+}
