@@ -3,7 +3,9 @@
     height: 31px;
     background-color: lightgray;
     text-align: center;
-    transform: translate(55em, 0.8em);
+    margin-left: 50%;
+    transform: translate(-2.9em, 0em);
+
 }
 #top-button p{
     transform: translate(0, 0.9em);
@@ -28,7 +30,7 @@ label + a {
 }
 
 .continue-button{
-    width:35.1em;
+    width: 100%;
     color: black;
     background-color: gold;
     border-color: lightslategray;
@@ -45,14 +47,13 @@ label + a {
 .lastlinks {
     list-style-type: none;
     display: inline-block;
-    margin: auto;
-    transform: translate(45em, -2em);
+    margin-left: 50%;
+    transform: translate(-12.5em, 0em);
 }
 
 .lastlinks li {
     float:left;
     padding: 10px;
-    text-align:center;
 }
 p {
     text-align: center;
