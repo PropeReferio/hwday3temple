@@ -36,9 +36,10 @@ label + a {
     border-color: lightslategray;
 }
 #accountbutton{
-    background-color: lightgray;
+    background-color: rgb(238, 238, 238);
     color:black;
-    border: 1px solid lightslategray;
+    border: 1px solid rgb(147, 158, 168);
+    margin-bottom:4em;
 }
 .form-group{
     padding-top: 10px;
@@ -48,14 +49,34 @@ label + a {
     list-style-type: none;
     display: inline-block;
     margin-left: 50%;
-    transform: translate(-12.5em, 0em);
+    transform: translate(-12.9em, 0em);
 }
 
 .lastlinks li {
     float:left;
-    padding: 10px;
+    padding: 10px 12px;
 }
 p {
     text-align: center;
-    transform: translate(0, -1em)
+    transform: translate(0, -1em);
+    margin-top:0.8em;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1.4em;
+    color: lightgray;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgb(97, 105, 112);
+}
+.separator::before {
+    margin-right: .25em;
+}
+.separator::after {
+    margin-left: .25em;
 }

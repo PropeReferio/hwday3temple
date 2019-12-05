@@ -1,0 +1,23 @@
+.buttonpractice {
+    background-color:red;
+    text-decoration: none;
+    margin-left: 45%;
+    transform: translate(0em, 5em);
+    padding: 1.6em;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    box-shadow: 0 5px 0 darkred;
+
+}
+.buttonpractice:hover{
+    background-color:blue;
+    text-decoration: none;
+    color:white;
+    box-shadow: 0 5px 0 darkblue;
+}
+.buttonpractice:active{
+    box-shadow: none;
+    background-color:blue;
+    text-decoration: none;
+    color:white;
+}
